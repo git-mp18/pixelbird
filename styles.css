@@ -1,0 +1,59 @@
+/* Стили для надписи */
+.game-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn i {
+    margin-right: 5px;
+}
+
+/* Стили для кнопки Apple */
+.apple-btn {
+    background-color: #b6b6b6;
+    color: #fff;
+}
+
+.apple-btn:hover {
+    background-color: #8c8c8c;
+}
+
+/* Стили для кнопки Android */
+.android-btn {
+    background-color: #a4c639;
+    color: #fff;
+}
+
+.android-btn:hover {
+    background-color: #8fae32;
+}
+
+a{
+    text-decoration: none;
+}
